@@ -1,0 +1,256 @@
+
+
+#root{
+  font-family: 'Press Start 2P', cursive;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  margin: auto;
+  color: #F7AFDC;
+  --inputColor: #F5AEDA;
+}
+
+#buttonLogin{
+
+  border-radius: 8px;
+  border: 2px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  
+  color: #F5AEDA;
+  background-color: #FFFFFA;
+}
+
+button:hover {
+  border-color: #fff;
+  transform: scale(0.95);
+  background-color: transparent;
+}
+
+
+
+h1:hover {
+  border-color: #fff;
+  transform: scale(0.95);
+  background-color: transparent;
+}
+
+#divDados{
+  width: 540px;
+  height: 370px;
+  margin: auto;
+  background-color: #F7AFDC;
+  border-radius: 10px;
+  border-radius: 1vh;
+}
+
+#cadeoespaco{
+  height: 10px;
+}
+Endereco{
+  margin-top: 10px;
+}
+
+#inputUf-box{
+  padding: 3px;
+  padding-top: 20px;
+  
+}
+
+#inputUf{
+  height: 30px;
+  width: 320px;
+  color: #F5AEDA;
+  background-color: #FFFFFA;
+  border-radius: 1vh;
+}
+
+#inputCid-box{
+  padding: 5px;
+}
+
+#inputCid{
+border-color: #fff;
+transform: scale(0.95);
+background-color: transparent;
+  
+  
+}
+
+#inputCid{
+  color: #FFFFFA;
+  
+  
+}
+
+select{
+  color: #F7AFDC;
+  background-color: #FFFFFA;
+  font-family: 'Press Start 2P', cursive;
+
+}
+#inputCep-box{
+  padding-top: 3px;
+}
+
+#inputCep{
+  color: #F7AFDC;
+  background-color: #FFFFFA;
+}
+
+#endereco-box{
+  margin: auto;
+  color: #F7AFDC;
+  height: 130px;
+  width: 300px;
+  border-radius: 20px;
+  background-color: #FFFFFA;
+  
+}
+#legendaEnd{
+  padding: 5px;
+}
+#ruaEnd{
+  padding-bottom: 5px;
+}
+.boldFont{
+  font-weight: bold;
+}
+
+#loginBox{
+  color: #FFFFFA;
+  background-color: #F7AFDC;
+  height: 270px;
+  border-radius: 20px;
+}
+
+#loginForm{
+  width: 300px;
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+}
+
+#loginForm>h1{
+  margin: 7px;
+  
+}
+
+#loginForm>input{
+  color: #FFFFFA;
+  background-color: #F7AFDC;
+  padding: 5px;
+  margin: 5px;
+}
+
+#loginButtonDiv>button{
+  margin: 5px;
+  padding: 5px;
+  background-color: #FFFFFA;
+  color:#F7AFDC
+
+}
+
+#buttonHome{
+  width: 200px;
+}
+
+#cadastroBox{
+  background-color: #F5AEDA;
+  height: 320px;
+  border-radius: 20px;
+  color: #FFFFFA;
+}
+
+#cadas{
+  font-size: 2em;
+}
+
+#cadastroForm{
+  width: 400px;
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+}
+
+#cadastroForm>input{
+  padding: 5px;
+  margin: 5px;
+  background-color: #F7AFDC;
+}
+
+#cadastroButtonDiv{
+  padding: 5px;
+  margin: 5px;
+}
+
+#cadastroButtonDiv>button{
+  padding: 5px;
+  margin: 5px;
+  background-color: #FFFFFA;
+  color: #F5AEDA;
+}
+
+#testeBox{
+  background-color: rgb(28, 28, 28);
+  height: 230px;
+  border-radius: 20px;
+}
+
+#tituloTeste{
+  width: 250px;
+}
+.textoTeste{
+  margin: 14px;
+  padding: 1px;
+}
+
+#testeButtonDiv>button{
+  padding: 5px;
+  margin: 5px;
+}
+
+#loginHome{
+  margin: 7px;
+  padding: 5px;
+}
+
+#updateForm{
+  width: 300px;
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+}
+
+#updateBox{
+  background-color: #F5AEDA;
+  height: 230px;
+  border-radius: 20px;
+  color: #FFFFFA;
+}
+
+#updateForm>input{
+  padding: 5px;
+  margin: 5px;
+  background-color: #F5AEDA;
+}
+
+#updateForm>input:hover{
+  border-color: #fff;
+  transform: scale(0.95);
+  background-color: transparent;  
+
+}
+
+
+#updateButtonDiv>button{
+  padding: 5px;
+  margin: 5px;
+  background: #FFFFFA;
+  color: #F5AEDA;
+}
